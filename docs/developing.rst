@@ -13,8 +13,8 @@ Momonga is still highly under development. for now, this section tells you how t
 	# Building momonga
 	mkdir momonga && cd momonga
 	export GOPATH=`pwd`
-	go get github.com/chobie/momonga/momonga
-	go build -o momonga github.com/chobie/momonga/momonga
+	go get github.com/PYW1/momonga/momonga
+	go build -o momonga github.com/PYW1/momonga/momonga
 
 
 .. toctree::

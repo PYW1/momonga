@@ -1,7 +1,7 @@
 // This library ported from davedoesdev/qlobber
 //
 // Copyright (c) 2013 David Halls <https://github.com/davedoesdev/>
-// Copyright (c) 2014 Shuhei Tanuma <https://github.com/chobie/>
+// Copyright (c) 2014 Shuhei Tanuma <https://github.com/PYW1/>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal

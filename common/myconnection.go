@@ -7,9 +7,9 @@ package common
 import (
 	"bufio"
 	"fmt"
-	codec "github.com/chobie/momonga/encoding/mqtt"
-	log "github.com/chobie/momonga/logger"
-	"github.com/chobie/momonga/util"
+	codec "github.com/PYW1/momonga/encoding/mqtt"
+	log "github.com/PYW1/momonga/logger"
+	"github.com/PYW1/momonga/util"
 	"io"
 	"net"
 	"sync"

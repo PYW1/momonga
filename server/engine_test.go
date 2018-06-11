@@ -2,10 +2,10 @@ package server
 
 import (
 	"bytes"
-	. "github.com/chobie/momonga/common"
-	"github.com/chobie/momonga/configuration"
-	codec "github.com/chobie/momonga/encoding/mqtt"
-	log "github.com/chobie/momonga/logger"
+	. "github.com/PYW1/momonga/common"
+	"github.com/PYW1/momonga/configuration"
+	codec "github.com/PYW1/momonga/encoding/mqtt"
+	log "github.com/PYW1/momonga/logger"
 	. "gopkg.in/check.v1"
 	"net"
 	"os"
@@ -69,7 +69,7 @@ type EngineSuite struct{}
 var _ = Suite(&EngineSuite{})
 
 func (s *EngineSuite) SetUpSuite(c *C) {
-	os.Remove("/Users/chobie/src/momonga/socket")
+	os.Remove("/Users/PYW1/src/momonga/socket")
 }
 
 func (s *EngineSuite) TearDownSuite(c *C) {

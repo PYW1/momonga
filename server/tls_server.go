@@ -5,9 +5,9 @@ package server
 
 import (
 	"fmt"
-	. "github.com/chobie/momonga/common"
-	"github.com/chobie/momonga/configuration"
-	log "github.com/chobie/momonga/logger"
+	. "github.com/PYW1/momonga/common"
+	"github.com/PYW1/momonga/configuration"
+	log "github.com/PYW1/momonga/logger"
 	"net"
 	"os"
 	"strings"

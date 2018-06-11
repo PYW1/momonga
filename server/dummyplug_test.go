@@ -1,8 +1,8 @@
 package server
 
 import (
-	. "github.com/chobie/momonga/common"
-	"github.com/chobie/momonga/encoding/mqtt"
+	. "github.com/PYW1/momonga/common"
+	"github.com/PYW1/momonga/encoding/mqtt"
 	. "gopkg.in/check.v1"
 )
 

@@ -15,11 +15,11 @@ var _ = Suite(&QlobberSuite{})
 
 func (s *QlobberSuite) TestQlobber(c *C) {
 	q := NewQlobber()
-	q.Add("/debug/chobie", "a")
-	q.Add("/+/chobie", "b")
+	q.Add("/debug/PYW1", "a")
+	q.Add("/+/PYW1", "b")
 	q.Add("/#", "c")
 
-	r := q.Match("/debug/chobie")
+	r := q.Match("/debug/PYW1")
 	c.Assert(len(r), Equals, 3)
 	c.Assert(r[0], Equals, "c") // NOTE: Don't care order
 	c.Assert(r[1], Equals, "a")
@@ -30,11 +30,11 @@ func (s *QlobberSuite) TestQlobber(c *C) {
 
 func (s *QlobberSuite) BenchmarkQlobber(c *C) {
 	q := NewQlobber()
-	q.Add("/debug/chobie", "a")
-	q.Add("/+/chobie", "b")
+	q.Add("/debug/PYW1", "a")
+	q.Add("/+/PYW1", "b")
 	q.Add("/#", "c")
 
 	for i := 0; i < c.N; i++ {
-		q.Match("/debug/chobie")
+		q.Match("/debug/PYW1")
 	}
 }

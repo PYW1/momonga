@@ -5,8 +5,8 @@
 package common
 
 import (
-	"github.com/chobie/momonga/encoding/mqtt"
-	"github.com/chobie/momonga/util"
+	"github.com/PYW1/momonga/encoding/mqtt"
+	"github.com/PYW1/momonga/util"
 )
 
 type State int32

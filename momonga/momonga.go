@@ -6,9 +6,9 @@ package main
 
 import (
 	"flag"
-	log "github.com/chobie/momonga/logger"
-	"github.com/chobie/momonga/server"
-	"github.com/chobie/momonga/util"
+	log "github.com/PYW1/momonga/logger"
+	"github.com/PYW1/momonga/server"
+	"github.com/PYW1/momonga/util"
 	"os"
 	"path/filepath"
 	"runtime"

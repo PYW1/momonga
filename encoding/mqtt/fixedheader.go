@@ -85,7 +85,12 @@ func (self *FixedHeader) writeTo(length int, w io.Writer) (int64, error) {
 		return 0, err
 	}
 
-	_, err = WriteVarint(w, length)
+	if length == 0 {
+		l := byte(0)
+		err = binary.Write(w, binary.BigEndian, l)			// 长度为0时也需要写入一个字节
+	} else {
+		_, err = WriteVarint(w, length)
+	}
 	if err != nil {
 		return 0, err
 	}

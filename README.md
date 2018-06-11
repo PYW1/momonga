@@ -34,11 +34,11 @@ dev
 
 ```
 #momonga (MQTT Server)
-go get -u github.com/chobie/momonga/momonga
+go get -u github.com/PYW1/momonga/momonga
 momonga -config=config.toml
 
 #momonga_cli
-go get -u github.com/chobie/momonga/momonga_cli
+go get -u github.com/PYW1/momonga/momonga_cli
 momonga_cli
 ```
 
@@ -49,13 +49,13 @@ NOTE: momonga is still under development. API may change.
 ```
 mkdir momonga && cd momonga
 export GOPATH=`pwd`
-go get -u github.com/chobie/momonga/momonga
+go get -u github.com/PYW1/momonga/momonga
 
 # server
-go run src/github.com/chobie/momonga/momonga/momonga.go -config=src/github.com/chobie/momonga/config.toml
+go run src/github.com/PYW1/momonga/momonga/momonga.go -config=src/github.com/PYW1/momonga/config.toml
 
 # cli
-go build -o momonga_cli src/github.com/chobie/momonga/momonga_cli/momonga_cli.go
+go build -o momonga_cli src/github.com/PYW1/momonga/momonga_cli/momonga_cli.go
 ```
 
 # Author
@@ -98,10 +98,10 @@ test suite succeeded
 
 for linux, osx
 
-https://drone.io/github.com/chobie/momonga/files
+https://drone.io/github.com/PYW1/momonga/files
 
 ```
-wget https://drone.io/github.com/chobie/momonga/files/artifacts/bin/linux_arm/momonga
+wget https://drone.io/github.com/PYW1/momonga/files/artifacts/bin/linux_arm/momonga
 chmod +x momonga
 ./momonga
 ```

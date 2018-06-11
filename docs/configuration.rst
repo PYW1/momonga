@@ -5,7 +5,7 @@ Momonga uses TOML syntax for configuration.
 
 Getting the latest configuration
 `````````````````````````````````
-You may wish to consult the `config.toml in source control <https://raw.github.com/chobie/momonga/master/config.toml>`_ for all of the possible latest values.
+You may wish to consult the `config.toml in source control <https://raw.github.com/PYW1/momonga/master/config.toml>`_ for all of the possible latest values.
 
 General server
 ---------------

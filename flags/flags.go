@@ -4,7 +4,7 @@
 package flags
 
 import (
-//	log "github.com/chobie/momonga/logger"
+//	log "github.com/PYW1/momonga/logger"
 )
 
 var (

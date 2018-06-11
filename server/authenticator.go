@@ -1,6 +1,6 @@
 package server
 
-import "github.com/chobie/momonga/configuration"
+import "github.com/PYW1/momonga/configuration"
 
 //type User struct {
 //	Name []byte
