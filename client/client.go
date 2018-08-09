@@ -26,6 +26,7 @@ type Option struct {
 	WillMessage         []byte
 	WillRetain          bool
 	WillQos             int
+	CleanSession		bool
 	UserName            string
 	Password            string
 	Keepalive           int // THIS IS REALLY TROBULESOME
@@ -60,7 +61,7 @@ func NewClient(opt Option) *Client {
 			Identifier: "momongacli",
 			Keepalive:  10,
 		},
-		CleanSession: true,
+		CleanSession: opt.CleanSession,
 		Subscribed:   make(map[string]int),
 		Mutex:        sync.RWMutex{},
 		Errors:       make(chan error, 128),
